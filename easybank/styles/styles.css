@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 50px;
+}
+nav {
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-container li {
+  list-style: none;
+  padding: 25px 15px;
+}
+.flex-container li a {
+  text-decoration: none;
+}
+.section {
+  height: 100vh;
+  width: 100vw;
+  background-color: #888888;
+}
